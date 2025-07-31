@@ -64,7 +64,7 @@ with ui.layout_columns():
             )
 
     with ui.card(full_screen=True):
-        ui.card_header("Penguin Data Summary")
+        ui.card_header("Interactive Penguin Data Grid")  # Updated header text here
         @render.data_frame
         def summary_statistics():
             cols = [
