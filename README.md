@@ -1,4 +1,6 @@
-# PyShiny Basic Dashboard (Penguins)
+# Penguins Dashboard - Final Project (Module 7 - P7) by Blessing
+An interactive dashboard built using PyShiny and the Palmer Penguins dataset. This final version includes filtering by species and body mass, summary statistics, scatter plots, and an interactive data grid.
+
 
 ## Tools
 
@@ -8,27 +10,20 @@
 - Git
 - GitHub
 
-## Try in the Browser
 
-Go to PyShiny Templates at <https://shiny.posit.co/py/templates/>.
-Go to Dashboards / Basic Dashboard.
+## Try the Live Dashboard
 
-- <https://shiny.posit.co/py/templates/dashboard/>
+You can view the live app here:  
+[My Penguins Dashboard](https://teflxndxn.github.io/cintel-07-tdash/)
 
-## Reference App with Detailed Instructions
 
-For more detailed instructions, see <https://github.com/denisecase/pyshiny-penguins-dashboard-express>.
-That project README.md has more detailed instructions, including reminders for Mac and Linux. 
+## Based on the original project by Denise Case:  
+<https://github.com/denisecase/pyshiny-penguins-dashboard-express>
 
 ## Get the Code
 
-Fork this project into your own GitHub account.
-Clone **your** GitHub repo down to your local machine.
-IMPORTANT: Use your GitHub **username** in place of denisecase.
-[GitHub CLI](https://cli.github.com/) may work better on some machines.
-
 ```shell
-git clone https://github.com/denisecase/cintel-07-tdash
+ git clone https://github.com/teflxndxn/cintel-07-tdash
 ```
 
 ## Run Locally - Initial Start
@@ -55,7 +50,8 @@ Open a terminal (VS Code menu "View" / "Terminal") in the root project folder an
 shiny run --reload --launch-browser app/app.py
 ```
 
-Open a browser to <http://127.0.0.1:8000/> and test the app.
+Open a browser to <http://localhost:8008/> and test the Pages app.
+
 
 ## Run Locally - Subsequent Starts
 
@@ -87,15 +83,20 @@ Open a browser to <http://[::1]:8008/> and test the Pages app.
 
 ## Push Changes back to GitHub
 
+
 Open a terminal (VS Code menu "Terminal" / "New Terminal") in the root project folder and run these commands.
 
 ```shell
 git add .
-git commit -m "Useful commit message"
+git commit -m "Final P7 dashboard improvements and README update"
 git push -u origin main
+
 ```
 
-## Enable GitHub Pages
+## Features and Improvements in This Version
 
-Go to your GitHub repo settings and enable GitHub Pages for the docs folder.
-
+- Filter penguins by species and body mass.
+- Summary value boxes with average bill length/depth and count.
+- Scatter plot of bill length vs bill depth by species.
+- Interactive data grid with filters.
+- Added links to project repo, live app, and related resources.

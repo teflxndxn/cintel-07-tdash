@@ -9,7 +9,8 @@ import palmerpenguins          # Penguins dataset
 df = palmerpenguins.load_penguins()
 
 # Set dashboard page options with title and fillable layout
-ui.page_opts(title="Module 7 Penguins Dashboard - Blessing", fillable=True)
+ui.page_opts(title="Module 7 P7 Final - Penguins Dashboard - Blessing", fillable=True)
+
 
 # Sidebar UI with filters and helpful links
 with ui.sidebar(title="Filter controls - Blessing"):
